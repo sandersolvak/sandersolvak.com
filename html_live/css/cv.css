@@ -1,0 +1,57 @@
+/* CV specific css */
+@media only screen and (min-width: 320px) {
+	h1 {color: red;}
+	
+
+}
+
+@media only screen and (min-width: 600px) {
+	h1 {color: blue;}
+	
+}
+
+@media only screen and (min-width: 1100px) {
+
+	article.timeline {
+		border-left: 2px dotted #f9b317;
+		margin: 0;
+		padding: 0 0 1em 0;
+	}
+	h1 {
+		color: green;
+	}
+	article.timeline h2, article.timeline h3 {
+		margin: 0;
+		padding-left: 1em;
+		line-height: 3;
+	}
+	/*article.timeline h2:before, article.timeline h3:before {content:'&#x25A0;'; margin-left: -0.4em; margin-right: 0.6em;}*/
+	article.timeline aside p {
+		line-height: 3.4;
+		background: none;
+	}
+	article.timeline p {
+		margin: 0  0 2em -0.3em;
+		padding-left: 2em;
+		position: relative;
+	}
+	
+	article.timeline p span.date {
+		line-height: 2.2em;
+		font-size: 0.8em;
+		color: #666;
+		text-align: right;
+		position: relative;
+		left: -250px;
+		top: -0.2em;
+		width: 196px;
+		float: left;
+		margin-right: -196px;
+		padding: 0;
+		background: none;
+		display: block;
+	}
+	article.timeline p:first-letter {color: #f9b317; margin-right: 1em; margin-left: -2.02em; }
+	article.timeline h3:first-letter {color: #f9b317; margin-right: 1em; margin-left: -1.52em; font-size: 120%;}
+
+}
