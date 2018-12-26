@@ -20,7 +20,7 @@ front_matter_path: "/config.toml"
 use_front_matter_path: false
 file_template: ":filename:"
 build:
-  preview_command: hugo -E -F -D -d public
+  preview_command: hugo -E -F -D
   publish_command: hugo
   output_directory: public
 version: '0.52'
